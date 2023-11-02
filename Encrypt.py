@@ -15,5 +15,5 @@ def callEncrypt(plainText: str) -> str:
 
     encryptedPassword = rsa.encrypt(encodedPassword, publicKey)
     b64Pass = b64encode(encryptedPassword).decode()
-    print('\n', "Encrypted Password: ", b64Pass)
+    #print('\n', "Encrypted Password: ", b64Pass)
     return b64Pass

@@ -15,6 +15,6 @@ def callDecrypt(encryptedText: str) -> str:
 
     decryptedPassword = rsa.decrypt(encryptedPassword, privateKey)
     decryptedPassword = decryptedPassword.decode()
-    print('\n', "Password: ", decryptedPassword)
+    #print('\n', "Password: ", decryptedPassword)
     return decryptedPassword
 
